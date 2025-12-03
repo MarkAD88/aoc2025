@@ -4,6 +4,14 @@ https://adventofcode.com/
 
 Things have been so busy this year that I completely forgot about AoC until a coworker threw a message into Slack earlier today.  I'm so ashamed.
 
+```
+These are your personal leaderboard times:
+
+Day   -Part 1-   -Part 2-
+  2   17:49:03   18:17:59
+  1       >24h       >24h
+```
+
 ## Day 1 - Secret Entrance
 Part 1 was cake walk.  Part 2 ruined me.  I wasn't handling edge cases properly and it took me forever to track it down and resolve it.  Off by one errors will forever be the bane of humanity.
 
