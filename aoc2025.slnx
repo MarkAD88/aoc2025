@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="01_secret_entrance/01_secret_entrance.csproj" />
+  <Project Path="02_gift_shop/02_gift_shop.csproj" />
+</Solution>
