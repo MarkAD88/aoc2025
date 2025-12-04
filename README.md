@@ -5,10 +5,11 @@ https://adventofcode.com/
 Things have been so busy this year that I completely forgot about AoC until a coworker threw a message
 into Slack earlier today.  I'm so ashamed.
 
-```
+```text
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+  4   00:24:43   00:36:53
   3   00:17:30   03:00:21
   2   17:49:03   18:17:59
   1       >24h       >24h
@@ -28,4 +29,8 @@ ridiulously complicated when I tried to handle all the edge cases that I encount
 still has a too-short edge case handler and a remainder-too-short edge case handler but at least it
 finally works.  Except for a few very rare instances, part 2 always kicks my teeth in.  Ugh.
 
+## Day 4 - Printing Department
+Finally I feel like a real programmer.  Both parts were super stright forward and I knocked them out
+quickly.  Would have been quicker but I forget a variable assignment on the first part and probably
+cost myself 10 minutes staring at incorrect results when the problem was staring me right in the face.
 

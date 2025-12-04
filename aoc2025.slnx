@@ -2,4 +2,5 @@
   <Project Path="01_secret_entrance/01_secret_entrance.csproj" />
   <Project Path="02_gift_shop/02_gift_shop.csproj" />
   <Project Path="03_lobby/03_lobby.csproj" Id="5515a133-3010-47ec-af73-e893b3699a4a" />
+  <Project Path="04_printing_department/04_printing_department.csproj" Id="840fe29d-230d-43a6-80fd-84763d32b28e" />
 </Solution>
