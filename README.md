@@ -9,6 +9,7 @@ into Slack earlier today.  I'm so ashamed.
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+  5   00:19:01   00:39:55
   4   00:24:43   00:36:53
   3   00:17:30   03:00:21
   2   17:49:03   18:17:59
@@ -34,3 +35,22 @@ Finally I feel like a real programmer.  Both parts were super stright forward an
 quickly.  Would have been quicker but I forget a variable assignment on the first part and probably
 cost myself 10 minutes staring at incorrect results when the problem was staring me right in the face.
 
+## Day 5 - Cafeteria
+Part 1 was easy but I tripped myself up by trying to use a tricky LINQ TakeWhile to parse the first
+half of the file (fresh ingredients) and another LINQ TakeWhile to parse the second half of the file
+(available ingredients).
+
+Turned out that File.ReadLines doesn't do a "continuation" of the iterator in another loop it just
+starts over so that didn't work out too well and cost me.
+
+Then the approach I originally took - creating a List of longs for the fresh ingredients to use
+in an intersect with the fresh ingredients - worked fine for the example but once it hit the actual
+input it blew an OOM fast because the ranges were just too large to deal with.
+
+I switched to just tracking the start/end of a range using a custom class and that did the trick.
+
+Part 2 wasn't necessarily hard but I overcomplicatd my solution at first by trying to sort and then
+expand ranges by altering items and what not.  Horrible idea in hindsight.  I scrapped that and went
+with a simpler counter with min/max checks to get it done efficiently.
+
+Start to finish under an hour so just a few minutes off from Day 4's time.  Fun puzzle.
