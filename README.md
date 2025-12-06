@@ -9,6 +9,7 @@ into Slack earlier today.  I'm so ashamed.
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+  6   00:24:03   01:29:56
   5   00:19:01   00:39:55
   4   00:24:43   00:36:53
   3   00:17:30   03:00:21
