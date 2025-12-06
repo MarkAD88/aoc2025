@@ -4,4 +4,5 @@
   <Project Path="03_lobby/03_lobby.csproj" Id="5515a133-3010-47ec-af73-e893b3699a4a" />
   <Project Path="04_printing_department/04_printing_department.csproj" Id="840fe29d-230d-43a6-80fd-84763d32b28e" />
   <Project Path="05_cafeteria/05_cafeteria.csproj" Id="7f68d33e-ef5b-410a-aa28-1b28755ef949" />
+  <Project Path="06_trash_compactor/06_trash_compactor.csproj" Id="2c5accb7-1f12-4794-a630-35a1f60adc74" />
 </Solution>

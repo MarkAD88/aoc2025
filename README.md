@@ -54,3 +54,11 @@ expand ranges by altering items and what not.  Horrible idea in hindsight.  I sc
 with a simpler counter with min/max checks to get it done efficiently.
 
 Start to finish under an hour so just a few minutes off from Day 4's time.  Fun puzzle.
+
+## Day 6 - Trash Compactor
+Part 1 wasn't necesarily hard but I struggled a bit with the parsing logic which cost me a bit of time
+but finally figured out the right approach.
+
+Part 2 nearly beat me.  Once again I over complicated the parsing solution which lead me way down the
+wrong path.  Once I saw the light and simplifed the parsing the rest was a breeze.
+
