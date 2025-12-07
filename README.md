@@ -9,6 +9,7 @@ into Slack earlier today.  I'm so ashamed.
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+  7   00:47:45   02:01:44
   6   00:24:03   01:29:56
   5   00:19:01   00:39:55
   4   00:24:43   00:36:53
@@ -62,4 +63,25 @@ but finally figured out the right approach.
 
 Part 2 nearly beat me.  Once again I over complicated the parsing solution which lead me way down the
 wrong path.  Once I saw the light and simplifed the parsing the rest was a breeze.
+
+## Day 7 - Laboratories
+Do I even need to say it again?
+
+Part 1 proved somewhat challenging.  I kept getting incorrect results for the examples regardless of
+what technique I used.  Turns out I my logic was 100% correct but I was trying to use a hashset to
+keep track of my Beams and was mutating the state (x and y positions) which caused my uniqueness
+checks to fail resulting in wildly incorrect results.  Once I figured out what I was doing wrong
+a minor fix made everything flal into place.
+
+Part 2.  Ugh.  I must have spent 45 minutes trying to figure out if there was a simple mathmatical
+formula I could use to calculate the result.  If there is one SOMEONE please tell me what it is
+because I couldn't figure it out.  So I took the brute force approach.  Well, maybe not 100% brute
+force.  The caching approach is a learned technique from pervious year AoC problems.  My numbers
+still weren't coming out properly but at least they were wrong FAST instead of SLOW.  The root
+of the problem turned out to be me caching information with the wrong coordinates.  I wasn't
+frezzing the input Y coordinate that was passed in to the method and was instead using the
+incremented Y coordinate when caching results leading to a whole lot of bad.  Alls well that
+ends well though.
+
+Still, at least it didn't take me as long to solve as Day 3.  :smile:
 
