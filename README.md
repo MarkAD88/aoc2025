@@ -9,6 +9,7 @@ into Slack earlier today.  I'm so ashamed.
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+  8   12:07:35          -
   7   00:47:45   02:01:44
   6   00:24:03   01:29:56
   5   00:19:01   00:39:55
@@ -84,4 +85,15 @@ incremented Y coordinate when caching results leading to a whole lot of bad.  Al
 ends well though.
 
 Still, at least it didn't take me as long to solve as Day 3.  :smile:
+
+## Day 8 - Playground
+Part 1 should have been painless.  Simply calc the distances between all the nodes.  Group them
+together by said distances until you've made {x} connections and you're done.  But no.  I
+just couldn't be bothered to check that my MATH was wrong and I wasn't ensuring that my
+distance calculation was accurate.  That little mistake cost me 2+ hours last night - I finally
+gave up after 2 hours and 45 minutes - and took me all of 5 minutds to solve this morning
+when I just glanced at the code as I was closing out the editor.  Ugh.
+
+Never figured out how to implement Part 2.  I'll have to come back to that another day.
+
 
