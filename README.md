@@ -96,4 +96,10 @@ when I just glanced at the code as I was closing out the editor.  Ugh.
 
 Never figured out how to implement Part 2.  I'll have to come back to that another day.
 
+## Day 9 - Movie Theater
+Part 1 was simple and painless.  Finished it in a matter of minutes.
+
+Part 2 I know what I want to do - order the red tiles as vertices in a polygon so I can use a
+standard containing algorithm but I cannot get the order of the tiles right.  ARGH!
+
 
