@@ -102,4 +102,8 @@ Part 1 was simple and painless.  Finished it in a matter of minutes.
 Part 2 I know what I want to do - order the red tiles as vertices in a polygon so I can use a
 standard containing algorithm but I cannot get the order of the tiles right.  ARGH!
 
-
+Part 2 Update:
+I came up with a brute force approach to Part 2 and it worked perfectly on the sample data but
+when I tried it on the full input it just blew up with an OOM.  BUT the upside is it laid the
+groundwork for determining per Y valid ranges for X which is what I finally used to solve the
+thing.  It's relatively fast too.
