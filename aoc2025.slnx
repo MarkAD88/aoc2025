@@ -8,4 +8,5 @@
   <Project Path="07_laboratories/07_laboratories.csproj" Id="9a1465f3-0c01-4464-ab8f-ac84dc435a5b" />
   <Project Path="08_playground/08_playground.csproj" Id="b766bbaf-ccb2-4c9f-a228-5579e7c6a841" />
   <Project Path="09_movie_theater/09_movie_theater.csproj" Id="6cc8f749-79e0-4074-a235-1153d229d5e4" />
+  <Project Path="11_reactor/11_reactor.csproj" Id="7b946902-0657-4992-bf0f-6e1518a17378" />
 </Solution>
