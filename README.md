@@ -9,7 +9,9 @@ into Slack earlier today.  I'm so ashamed.
 These are your personal leaderboard times:
 
 Day   -Part 1-   -Part 2-
+ 12   01:02:10          -
  11   00:36:50   02:59:43
+ 10          -          -
   9   00:12:58   15:50:14
   8   12:07:35          -
   7   00:47:45   02:01:44
@@ -120,3 +122,11 @@ numbers that it was giving me incorrect results.  Once I did some debuggin and s
 returning a negative number it was an easy fix.  Unfortunately, it cost me 2+ hours of my life
 that I'm never getting back.  You'd think after getting bit by the same issue nearly every
 year I'd learn.  Not so much apparently.
+
+## Day 12 - Christmas Tree Farm
+After spending nearly an hour trying to think of a pattern or algorithm I could use to start
+playing Tetris programatically I finally just gave up and wrote a quick Region vs. Package 
+Total Size comparison and luckily enough it worked.  
+
+I'm not sure if there is a Part 2 because it says that I'm still 3 stars short.  Maybe I'll
+get around to getting those stars and then see if a Part 2 actually exists.
